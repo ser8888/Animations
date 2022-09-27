@@ -37,6 +37,33 @@ struct CarRacingView: View {
                     color: .yellow,
                     animation: .easeInOut(duration: 0.7)
                 )
+                CartView(
+                    start: $start,
+                    cartTitle: "InterpolationSpring",
+                    color: .brown,
+                    animation: .interpolatingSpring(
+                        mass: 1,
+                        stiffness: 100,
+                        damping: 10,
+                        initialVelocity: 0
+                        )
+                    .delay(0.9)
+                    )
+                    CartView(
+                        start: $start,
+                        cartTitle: "Spring",
+                        color: .orange,
+                        animation: .spring(
+                            response: 0.55,
+                            dampingFraction: 0.5,
+                            blendDuration: 0
+                        )
+                        .speed(2)
+                        .repeatCount(
+                            13,
+                            autoreverses: true
+                        )
+                    )
             }
             Spacer()
         }
