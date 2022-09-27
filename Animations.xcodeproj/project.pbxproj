@@ -15,6 +15,8 @@
 		7F36B07028E31E2F00E7EDBE /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F36B06F28E31E2F00E7EDBE /* AwardsView.swift */; };
 		7F36B07228E321FC00E7EDBE /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F36B07128E321FC00E7EDBE /* PathView.swift */; };
 		7F36B07428E32AF900E7EDBE /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F36B07328E32AF900E7EDBE /* CourseView.swift */; };
+		7F36B07628E3362600E7EDBE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F36B07528E3362600E7EDBE /* MainView.swift */; };
+		7F36B07828E33BD000E7EDBE /* CarRacingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F36B07728E33BD000E7EDBE /* CarRacingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		7F36B06F28E31E2F00E7EDBE /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 		7F36B07128E321FC00E7EDBE /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
 		7F36B07328E32AF900E7EDBE /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		7F36B07528E3362600E7EDBE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7F36B07728E33BD000E7EDBE /* CarRacingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRacingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				7F36B05F28E317DE00E7EDBE /* AnimationsApp.swift */,
+				7F36B07728E33BD000E7EDBE /* CarRacingView.swift */,
 				7F36B06D28E3186F00E7EDBE /* GradientRectangles.swift */,
 				7F36B06F28E31E2F00E7EDBE /* AwardsView.swift */,
+				7F36B07528E3362600E7EDBE /* MainView.swift */,
 				7F36B07328E32AF900E7EDBE /* CourseView.swift */,
 				7F36B07128E321FC00E7EDBE /* PathView.swift */,
 				7F36B06128E317DE00E7EDBE /* ContentView.swift */,
@@ -150,7 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F36B07228E321FC00E7EDBE /* PathView.swift in Sources */,
+				7F36B07628E3362600E7EDBE /* MainView.swift in Sources */,
 				7F36B07028E31E2F00E7EDBE /* AwardsView.swift in Sources */,
+				7F36B07828E33BD000E7EDBE /* CarRacingView.swift in Sources */,
 				7F36B06228E317DE00E7EDBE /* ContentView.swift in Sources */,
 				7F36B06028E317DE00E7EDBE /* AnimationsApp.swift in Sources */,
 				7F36B06E28E3186F00E7EDBE /* GradientRectangles.swift in Sources */,
