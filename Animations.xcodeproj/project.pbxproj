@@ -13,6 +13,7 @@
 		7F36B06728E317DF00E7EDBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F36B06628E317DF00E7EDBE /* Preview Assets.xcassets */; };
 		7F36B06E28E3186F00E7EDBE /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F36B06D28E3186F00E7EDBE /* GradientRectangles.swift */; };
 		7F36B07028E31E2F00E7EDBE /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F36B06F28E31E2F00E7EDBE /* AwardsView.swift */; };
+		7F36B07228E321FC00E7EDBE /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F36B07128E321FC00E7EDBE /* PathView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		7F36B06628E317DF00E7EDBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7F36B06D28E3186F00E7EDBE /* GradientRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
 		7F36B06F28E31E2F00E7EDBE /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
+		7F36B07128E321FC00E7EDBE /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				7F36B05F28E317DE00E7EDBE /* AnimationsApp.swift */,
 				7F36B06D28E3186F00E7EDBE /* GradientRectangles.swift */,
 				7F36B06F28E31E2F00E7EDBE /* AwardsView.swift */,
+				7F36B07128E321FC00E7EDBE /* PathView.swift */,
 				7F36B06128E317DE00E7EDBE /* ContentView.swift */,
 				7F36B06328E317DF00E7EDBE /* Assets.xcassets */,
 				7F36B06528E317DF00E7EDBE /* Preview Content */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F36B07228E321FC00E7EDBE /* PathView.swift in Sources */,
 				7F36B07028E31E2F00E7EDBE /* AwardsView.swift in Sources */,
 				7F36B06228E317DE00E7EDBE /* ContentView.swift in Sources */,
 				7F36B06028E317DE00E7EDBE /* AnimationsApp.swift in Sources */,
